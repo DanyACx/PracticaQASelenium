@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 
 public abstract class DriverManager {
 
-    protected WebDriver driver;
+    protected WebDriver driver; // Este atributo se hereda
 
     protected abstract void createDriver();
 
