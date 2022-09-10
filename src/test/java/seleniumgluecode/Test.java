@@ -8,7 +8,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+<<<<<<< HEAD
 public class Test extends TestBase{
+=======
+public class Test {
+
+    private WebDriver driver = Hooks.getDriver();
+>>>>>>> 0a9a3396976f30d6e629efc059c6c2d647b0a932
 
     @Given("^El usuario se encuentra en la pagina Home de imalittletester$")
     public void elUsuarioSeEncuentraEnLaPaginaHomeDeImalittletester() throws Throwable {
